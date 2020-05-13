@@ -46,10 +46,12 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="400dp"
                         android:layout_height="120dp"
                         android:layout_marginBottom="20dp"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginLeft="50dp">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="50dp"
@@ -74,8 +76,8 @@
                                     android:layout_height="70dp"
                                     android:layout_alignParentTop="true"
                                     android:layout_alignParentEnd="true"
-                                    android:layout_marginTop="25dp"
-                                    android:layout_marginEnd="384dp"
+                                    android:layout_marginTop="21dp"
+                                    android:layout_marginEnd="274dp"
                                     android:src="@drawable/image2"></ImageView>
 
                                 <TextView
@@ -83,8 +85,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_below="@id/img1"
                                     android:layout_alignParentEnd="true"
-                                    android:layout_marginTop="-60dp"
-                                    android:layout_marginEnd="226dp"
+                                    android:layout_marginTop="-59dp"
+                                    android:layout_marginEnd="150dp"
                                     android:layout_marginBottom="10dp"
                                     android:text="ALERTS"
                                     android:textColor="@android:color/white"
@@ -97,8 +99,8 @@
                                     android:layout_height="match_parent"
                                     android:layout_alignParentEnd="true"
                                     android:layout_alignParentBottom="true"
-                                    android:layout_marginEnd="2dp"
-                                    android:layout_marginBottom="9dp"
+                                    android:layout_marginEnd="3dp"
+                                    android:layout_marginBottom="-4dp"
                                     android:background="@android:color/transparent">
 
                                 </Button>
@@ -108,10 +110,11 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="400dp"
                         android:layout_height="120dp"
                         android:layout_marginBottom="20dp"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="50dp">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="50dp"
@@ -136,18 +139,17 @@
                                     android:layout_height="70dp"
                                     android:layout_alignParentTop="true"
                                     android:layout_alignParentEnd="true"
-                                    android:layout_marginTop="25dp"
-                                    android:layout_marginEnd="384dp"
+                                    android:layout_marginTop="19dp"
+                                    android:layout_marginEnd="279dp"
                                     android:src="@drawable/image1"></ImageView>
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_below="@id/img2"
-                                    android:layout_alignParentEnd="true"
-                                    android:layout_marginTop="-65dp"
-                                    android:layout_marginEnd="246dp"
-                                    android:layout_marginBottom="10dp"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="126dp"
+                                    android:layout_marginTop="31dp"
                                     android:text="CLASS"
                                     android:textColor="@android:color/white"
                                     android:textSize="30sp"
@@ -159,8 +161,8 @@
                                     android:layout_height="match_parent"
                                     android:layout_alignParentEnd="true"
                                     android:layout_alignParentBottom="true"
-                                    android:layout_marginEnd="-11dp"
-                                    android:layout_marginBottom="-20dp"
+                                    android:layout_marginEnd="-23dp"
+                                    android:layout_marginBottom="-8dp"
                                     android:background="@android:color/transparent"></Button>
 
                             </RelativeLayout>
@@ -168,10 +170,11 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="400dp"
                         android:layout_height="120dp"
                         android:layout_marginBottom="20dp"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="50dp">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="50dp"
@@ -197,8 +200,8 @@
                                     android:layout_height="70dp"
                                     android:layout_alignParentTop="true"
                                     android:layout_alignParentEnd="true"
-                                    android:layout_marginTop="20dp"
-                                    android:layout_marginEnd="384dp"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginEnd="271dp"
                                     android:src="@drawable/quiz"></ImageView>
 
                                 <TextView
@@ -206,8 +209,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_below="@id/img3"
                                     android:layout_alignParentEnd="true"
-                                    android:layout_marginTop="-60dp"
-                                    android:layout_marginEnd="262dp"
+                                    android:layout_marginTop="-56dp"
+                                    android:layout_marginEnd="185dp"
                                     android:layout_marginBottom="10dp"
                                     android:text="QUIZ"
                                     android:textColor="@android:color/white"
@@ -231,10 +234,11 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="400dp"
                         android:layout_height="120dp"
                         android:layout_marginBottom="20dp"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="50dp">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="50dp"
@@ -259,8 +263,8 @@
                                     android:layout_height="80dp"
                                     android:layout_alignParentTop="true"
                                     android:layout_alignParentEnd="true"
-                                    android:layout_marginTop="18dp"
-                                    android:layout_marginEnd="384dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginEnd="270dp"
                                     android:src="@drawable/image3"></ImageView>
 
                                 <TextView
@@ -268,8 +272,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_below="@id/img4"
                                     android:layout_alignParentEnd="true"
-                                    android:layout_marginTop="-68dp"
-                                    android:layout_marginEnd="128dp"
+                                    android:layout_marginTop="-60dp"
+                                    android:layout_marginEnd="54dp"
                                     android:layout_marginBottom="10dp"
                                     android:text="ASSIGNMENTS"
                                     android:textColor="@android:color/white"
@@ -282,8 +286,8 @@
                                     android:layout_height="match_parent"
                                     android:layout_alignParentEnd="true"
                                     android:layout_alignParentBottom="true"
-                                    android:layout_marginEnd="0dp"
-                                    android:layout_marginBottom="0dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_marginBottom="-5dp"
                                     android:background="@android:color/transparent"></Button>
 
                             </RelativeLayout>
@@ -291,10 +295,11 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="400dp"
                         android:layout_height="120dp"
                         android:layout_marginBottom="20dp"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="50dp">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="50dp"
@@ -321,8 +326,8 @@
                                     android:layout_alignParentTop="true"
                                     android:layout_alignParentEnd="true"
                                     android:layout_centerInParent="true"
-                                    android:layout_marginTop="30dp"
-                                    android:layout_marginEnd="384dp"
+                                    android:layout_marginTop="24dp"
+                                    android:layout_marginEnd="271dp"
                                     android:src="@drawable/image5"></ImageView>
 
                                 <TextView
@@ -330,8 +335,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_below="@id/img5"
                                     android:layout_alignParentEnd="true"
-                                    android:layout_marginTop="-54dp"
-                                    android:layout_marginEnd="234dp"
+                                    android:layout_marginTop="-47dp"
+                                    android:layout_marginEnd="150dp"
                                     android:layout_marginBottom="10dp"
                                     android:text="NOTES"
                                     android:textColor="@android:color/white"
@@ -344,8 +349,8 @@
                                     android:layout_height="match_parent"
                                     android:layout_alignParentEnd="true"
                                     android:layout_alignParentBottom="true"
-                                    android:layout_marginEnd="21dp"
-                                    android:layout_marginBottom="6dp"
+                                    android:layout_marginEnd="29dp"
+                                    android:layout_marginBottom="1dp"
                                     android:background="@android:color/transparent">
 
                                 </Button>
