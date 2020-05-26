@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:elevation="8dp"
+    android:background="#8b0a50"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="REMINDER"
+    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:orientation="vertical"></TextView>
+</androidx.appcompat.widget.Toolbar>

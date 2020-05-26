@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,10 +16,9 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
 
-
-                <LinearLayout
+                <!--<LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="0dp"
                     android:layout_marginBottom="30dp"
@@ -35,23 +34,29 @@
                         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                         android:textColor="@android:color/white"
                         android:textStyle="bold"></TextView>
-                </LinearLayout>
+                </LinearLayout>-->
+
+                <include
+                    android:id="@+id/toolbar"
+                    layout="@layout/toolbar"
+                    ></include>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="170dp"
+                    android:layout_marginTop="130dp"
                     android:layout_marginRight="10dp"
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:layout_width="400dp"
-                        android:layout_height="120dp"
+                        android:layout_width="350dp"
+                        android:layout_height="100dp"
                         android:layout_marginBottom="20dp"
                         android:orientation="horizontal"
                         android:gravity="center"
-                        android:layout_marginLeft="50dp">
+                        android:layout_marginLeft="20dp"
+                        >
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="50dp"
@@ -77,7 +82,7 @@
                                     android:layout_alignParentTop="true"
                                     android:layout_alignParentEnd="true"
                                     android:layout_marginTop="21dp"
-                                    android:layout_marginEnd="274dp"
+                                    android:layout_marginEnd="263dp"
                                     android:src="@drawable/image2"></ImageView>
 
                                 <TextView
@@ -85,8 +90,8 @@
                                     android:layout_height="wrap_content"
                                     android:layout_below="@id/img1"
                                     android:layout_alignParentEnd="true"
-                                    android:layout_marginTop="-59dp"
-                                    android:layout_marginEnd="150dp"
+                                    android:layout_marginTop="-57dp"
+                                    android:layout_marginEnd="151dp"
                                     android:layout_marginBottom="10dp"
                                     android:text="ALERTS"
                                     android:textColor="@android:color/white"
@@ -110,11 +115,12 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="400dp"
-                        android:layout_height="120dp"
+                        android:layout_width="350dp"
+                        android:layout_height="100dp"
                         android:layout_marginBottom="20dp"
                         android:orientation="horizontal"
-                        android:layout_marginLeft="50dp">
+                        android:layout_marginLeft="20dp"
+                        >
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="50dp"
@@ -140,7 +146,7 @@
                                     android:layout_alignParentTop="true"
                                     android:layout_alignParentEnd="true"
                                     android:layout_marginTop="19dp"
-                                    android:layout_marginEnd="279dp"
+                                    android:layout_marginEnd="270dp"
                                     android:src="@drawable/image1"></ImageView>
 
                                 <TextView
@@ -148,7 +154,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_alignParentStart="true"
                                     android:layout_alignParentTop="true"
-                                    android:layout_marginStart="126dp"
+                                    android:layout_marginStart="86dp"
                                     android:layout_marginTop="31dp"
                                     android:text="CLASS"
                                     android:textColor="@android:color/white"
@@ -170,11 +176,12 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="400dp"
-                        android:layout_height="120dp"
+                        android:layout_width="350dp"
+                        android:layout_height="100dp"
                         android:layout_marginBottom="20dp"
                         android:orientation="horizontal"
-                        android:layout_marginLeft="50dp">
+                        android:layout_marginLeft="20dp"
+                        >
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="50dp"
@@ -196,7 +203,7 @@
 
                                 <ImageView
                                     android:id="@+id/img3"
-                                    android:layout_width="70dp"
+                                    android:layout_width="60dp"
                                     android:layout_height="70dp"
                                     android:layout_alignParentTop="true"
                                     android:layout_alignParentEnd="true"
@@ -234,11 +241,12 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="400dp"
-                        android:layout_height="120dp"
+                        android:layout_width="350dp"
+                        android:layout_height="100dp"
                         android:layout_marginBottom="20dp"
                         android:orientation="horizontal"
-                        android:layout_marginLeft="50dp">
+                        android:layout_marginLeft="20dp"
+                        >
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="50dp"
@@ -295,11 +303,12 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="400dp"
-                        android:layout_height="120dp"
+                        android:layout_width="350dp"
+                        android:layout_height="100dp"
                         android:layout_marginBottom="20dp"
                         android:orientation="horizontal"
-                        android:layout_marginLeft="50dp">
+                        android:layout_marginLeft="20dp"
+                        >
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="50dp"
@@ -349,8 +358,8 @@
                                     android:layout_height="match_parent"
                                     android:layout_alignParentEnd="true"
                                     android:layout_alignParentBottom="true"
-                                    android:layout_marginEnd="29dp"
-                                    android:layout_marginBottom="1dp"
+                                    android:layout_marginEnd="-84dp"
+                                    android:layout_marginBottom="12dp"
                                     android:background="@android:color/transparent">
 
                                 </Button>
@@ -366,4 +375,4 @@
 
 
 
-</RelativeLayout>
+</ScrollView>
